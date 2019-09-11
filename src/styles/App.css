@@ -1,0 +1,124 @@
+.navbar-top {
+  background: #272922;
+  border-bottom: 2px solid #191919;
+  height: 60px;
+  margin-bottom: 0px; }
+  .navbar-top h1 {
+    color: white; }
+  .navbar-top h2 {
+    color: lightgrey; }
+  .navbar-top .navbar-logo {
+    float: left; }
+  .navbar-top .github-button {
+    float: right;
+    width: 120px;
+    margin-right: 20px;
+    margin-top: 10px; }
+  .navbar-top .btn.navbar-signout {
+    float: right;
+    width: 120px;
+    margin-right: 20px;
+    margin-top: 10px; }
+
+.navbar-side {
+  overflow: auto;
+  background-color: #21252c;
+  height: 700px;
+  border-right: 2px solid #191919;
+  border-bottom: 2px solid #191919;
+  padding-left: 0px;
+  padding-right: 0px; }
+  .navbar-side .side-login {
+    margin-top: 180px; }
+  .navbar-side .fa-github {
+    color: white;
+    margin-bottom: 8px;
+    font-size: 100px; }
+
+.tree-folders {
+  padding-left: 15px;
+  font: 16px / normal "Roboto Mono", "Menlo", "Ubuntu Mono", "Consolas", "source-code-pro", monospace; }
+
+.spin-div {
+  display: flex;
+  justify-content: center; }
+
+.spinner {
+  margin-top: 180px; }
+
+#brace-editor {
+  margin: 0px; }
+
+.code-editor {
+  font: 16px / normal "Roboto Mono", "Menlo", "Ubuntu Mono", "Consolas", "source-code-pro", monospace;
+  padding-left: 0px;
+  padding-right: 0px; }
+  .code-editor .commit-push {
+    float: right;
+    margin-top: 5px;
+    margin-right: 10px; }
+
+.ace_editor {
+  font: 16px / normal "Roboto Mono", "Menlo", "Ubuntu Mono", "Consolas", "source-code-pro", monospace; }
+
+.console .console-divider {
+  height: 48px;
+  background-color: #21252c;
+  border-top: 1px solid #191919;
+  border-bottom: 1px solid #191919;
+  margin-right: 0px; }
+  .console .console-divider .run-button {
+    margin: 4px 5px 5px 5px; }
+  .console .console-divider .clear-button {
+    margin: 4px 5px 5px 5px; }
+
+.console .evaluated-code {
+  height: 110px;
+  font: 16px / normal "Roboto Mono", "Menlo", "Ubuntu Mono", "Consolas", "source-code-pro", monospace;
+  font-weight: 200;
+  color: darkgrey;
+  background-color: #272922;
+  border-bottom: 2px solid #191919;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-right: 0px; }
+
+html {
+  background-color: #21252c; }
+
+body {
+  background-color: #21252c;
+  margin: 0px; }
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px; }
+
+.col-xl-12 {
+  height: 60px;
+  padding-left: 0px;
+  padding-right: 0px; }
+
+.invalid-feedback {
+  display: block; }
+
+.spinner {
+  -webkit-animation: spin 1s linear infinite;
+  animation: spin 1s linear infinite;
+  border: 5px solid #ddd;
+  border-top: 5px solid #42a5f5;
+  border-radius: 50%;
+  height: 75px;
+  width: 75px; }
+
+@-webkit-keyframes spin {
+  to {
+    border-top-color: #ec407a;
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@keyframes spin {
+  to {
+    border-top-color: #ec407a;
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }

@@ -1,0 +1,14 @@
+.navbar-side {
+  overflow: auto;
+  background-color: #21252c;
+  height: 700px;
+  border-right: 2px solid #191919;
+  border-bottom: 2px solid #191919;
+  padding-left: 0px;
+  padding-right: 0px; }
+  .navbar-side .side-login {
+    margin-top: 180px; }
+  .navbar-side .fa-github {
+    color: white;
+    margin-bottom: 8px;
+    font-size: 100px; }

@@ -1,0 +1,21 @@
+.navbar-top {
+  background: #272922;
+  border-bottom: 2px solid #191919;
+  height: 60px;
+  margin-bottom: 0px; }
+  .navbar-top h1 {
+    color: white; }
+  .navbar-top h2 {
+    color: lightgrey; }
+  .navbar-top .navbar-logo {
+    float: left; }
+  .navbar-top .github-button {
+    float: right;
+    width: 120px;
+    margin-right: 20px;
+    margin-top: 10px; }
+  .navbar-top .btn.navbar-signout {
+    float: right;
+    width: 120px;
+    margin-right: 20px;
+    margin-top: 10px; }
