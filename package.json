@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "availity-reactstrap-validation": "^1.4.3",
-    "express": "^4.15.4",
+    "express": "^4.18.2",
     "express-enforces-ssl": "^1.1.0",
     "helmet": "^3.8.1",
     "js-base64": "^2.4.3",
